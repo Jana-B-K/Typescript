@@ -1,0 +1,47 @@
+.app-shell {
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.title {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.nav {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.nav-link {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid #d4d4d8;
+  border-radius: 6px;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background-color: #1f2937;
+  color: #ffffff;
+  border-color: #1f2937;
+}
+
+.page-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.25rem;
+  background-color: #ffffff;
+}
+
+.page-card h1 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.page-card p {
+  margin: 0.5rem 0;
+  color: #4b5563;
+}
